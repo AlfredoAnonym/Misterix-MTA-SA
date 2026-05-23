@@ -8,7 +8,9 @@ Misterix resource for Multi Theft Auto. Inspired by the original Misterix script
 - Skin mods for various peds and music that you can always edit / add in the script
 - AI can throw projectiles at you, or fire with projectiles (spraycan still doesn't work, but flame thrower does for example)
 - Taxi system for few myths for now (check out the video to know how to make more taxi paths)
-- Weapon buying system
+- Weapon buying system (for future gamemode)
+- Health bars for myths
+- Not only 1 peds in one myth, there can be multiple peds (check out Epsilon or Zombies-Nemesis)
 
 # In which gamemode this script is supposed to be played on?
 
@@ -16,4 +18,4 @@ It should be played on Freeoram now. I planned to make it a separate gamemode, b
 
 # You mentioned Plane AI in your video, where is it?
 
-Plane AI didn't work out. I couldn't make planes follow me in the air, or dive bomb and then go up again. I once made Rustler somehow to shoot the weapon at me (that machine gun that rustler has) but that's it. Plane AI always overcomplicates the buttons - it instantly goes forward into a loop in the air and then crashes. I'd love to make ghost planes a myth in the future, but as I said I never had any help with it.
+Plane AI didn't work out. I couldn't make planes follow me in the air, or dive bomb and then go up again. I once made Rustler somehow to shoot the weapon at me (that machine gun that rustler has) but that's it. Plane AI always overcomplicates the buttons - it instantly goes forward into a loop in the air and then crashes upside down to the ground, which looks so funny. Or I made it crash into the walls lol. I'd love to make ghost planes a myth in the future, but as I said I never had any help with it so it will probably never be possible, but who knows.
