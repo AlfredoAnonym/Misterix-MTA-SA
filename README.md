@@ -11,6 +11,7 @@ Misterix resource for Multi Theft Auto. Inspired by the original Misterix script
 - Weapon buying system (for future gamemode)
 - Health bars for myths
 - Not only 1 peds in one myth, there can be multiple peds (check out Epsilon or Zombies-Nemesis)
+- Spawn friendly Yakuza with /yakuza command - they will help you battle the myths. Better spawn them after you accepted the mission, you might seen some glitches like them not getting out of the vehicle. I also tried to make Drive-by (with AI too) and they just seem to have an invisible weapon out of the car window, and they don't shoot with it so yeah, but they get out / get in of the cars, attack the myths, that's enough for me :)
 
 # In which gamemode this script is supposed to be played on?
 
