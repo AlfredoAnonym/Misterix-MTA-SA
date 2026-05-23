@@ -42,7 +42,7 @@ setTimer(function()
                             -- In MTA: Negative pitch is nose UP, Positive pitch is nose DOWN
                             local targetPitch = -math.deg(math.atan2(dz, dist)) 
 
-                            -- Get current rotations to steer organically
+                            -- Get current rotations to steer organically (no shit AI, didn't help me that much here)
                             local currentPitch, currentRoll, currentYaw = getElementRotation(entity)
 
                             -- Yaw diff for left/right steering
