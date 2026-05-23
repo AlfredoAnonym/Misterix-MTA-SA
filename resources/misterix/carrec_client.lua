@@ -348,7 +348,7 @@ addEventHandler("onServerSendPlaybackData", root, function(data, category, linke
         setElementDimension(playbackDriver, getElementDimension(localPlayer))
         setElementInterior(playbackDriver, getElementInterior(localPlayer))
         
-        -- Setup Taxi Indicators (Arrow & Radar Blip) - Ignore for Leaving Route
+        -- Setup Taxi Indicators (Arrow & Radar Blip) - Ignore for Leaving Route (the marker above the taxi does not work in the dimension yet!)
         if currentRouteCategory ~= "Leaving Route" then
             if not isElement(taxiArrow) then
                 taxiArrow = createMarker(0, 0, 0, "arrow", 1.5, 0, 150, 255, 255)
@@ -402,7 +402,7 @@ local function updateFakePassengerPeds()
         return 
     end
     
-    -- 1. Render Local Player Fake Clone Ped
+    -- 1. Render Local Player Fake Clone Ped (this is important because the player becomes invisible and fake player ped, with replicated clothes is sitting inside the taxi, to give you that feel that you are really inside of that taxi)
     if isPlayerInFakeTaxi then
         if not fakePassengerPeds[localPlayer] or not isElement(fakePassengerPeds[localPlayer]) then
             local fakePed = createPed(getElementModel(localPlayer), 0, 0, 0)
