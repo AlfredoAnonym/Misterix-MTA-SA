@@ -1,0 +1,58 @@
+<meta>
+    <info author="Gemini" type="script" name="Misterix Maker" description="Custom Mystery Creator" />
+    <min_mta_version server="1.5.8-9.20957"></min_mta_version>
+    <map src="misterix-map.map" dimension="0"></map>
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" />
+    <script src="save.lua" type="server" />
+    <script src="garage_server.lua" type="server" />
+    <script src="garage_client.lua" type="client" />
+    <script src="skins_c.lua" type="client" />
+    <script src="yakuza_client.lua" type="client" />
+    <script src="yakuza_server.lua" type="server" />
+    <script src="mission_logic_s.lua" type="server" />
+    <script src="mission_ai_c.lua" type="client" />
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+    <script src="weapon_shop_c.lua" type="client" />
+    <script src="weapon_shop_s.lua" type="server" />
+    <script src="carrec_client.lua" type="client" />
+    <script src="carrec_server.lua" type="server" />
+    <file src="missionpassed.mp3" />
+    <file src="xfiles1.mp3" />
+    <file src="xfiles2.mp3" />
+    <file src="myth2.mp3" />
+    <file src="myth3.mp3" />
+    <file src="myth4.mp3" />
+    <file src="line1.mp3" />
+    <file src="line2.mp3" />
+    <file src="line3.mp3" />
+    <file src="line4.mp3" />
+    <file src="line5.mp3" />
+    <file src="line6.mp3" />
+    <file src="line7.mp3" />
+    <file src="line8.mp3" />
+    <file src="m-dino.mp3" />
+    <file src="m-godzilla.mp3" />
+    <file src="m-nemesis.mp3" />
+    <file src="alien.txd" />
+    <file src="alien.dff" />
+    <file src="godzilla.txd" />
+    <file src="godzilla.dff" />
+    <file src="leatherface.txd" />
+    <file src="leatherface.dff" />
+    <file src="woodscreature.txd" />
+    <file src="woodscreature.dff" />
+    <file src="mothman.txd" />
+    <file src="mothman.dff" />
+    <file src="ghost.txd" />
+    <file src="ghost.dff" />
+    <file src="piggsy.txd" />
+    <file src="piggsy.dff" />
+    <file src="samara.txd" />
+    <file src="samara.dff" />
+    <file src="bigfoot.txd" />
+    <file src="bigfoot.dff" />
+    <file src="nemesis.txd" />
+    <file src="nemesis.dff" />
+</meta>
